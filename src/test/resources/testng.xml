@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Basic suite">
+    <parameter name="pathToFile" value="src/test/resources/testData/data.xml"/>
+    <parameter name="baseUri" value="http://localhost:3000"/>
+    <parameter name="basePath" value="/api/v2"/>
+    <test name="Interview Test">
+        <classes>
+            <class name="com.betadistrict.greg.test.BlockchainWalletApiTests"/>
+        </classes>
+    </test>
+</suite>

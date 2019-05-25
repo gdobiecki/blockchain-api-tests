@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+    <createWalletPayload>
+        <password>B3t4_D15Trict</password>
+        <api_code>FakeApiCode</api_code>
+        <email>notExistingMail@gmail.com</email>
+        <label>some_label</label>
+    </createWalletPayload>
+</root>
