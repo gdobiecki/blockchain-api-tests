@@ -1,32 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <root>
-    <createWalletPayloads>
-        <createWalletPayload>
-            <password>B3t4D15Trict</password>
-            <second_password>An0th3rPassword</second_password>
-            <api_code>FakeApiCode</api_code>
-            <email>notExistingMail@gmail.com</email>
-            <label>some_label</label>
-        </createWalletPayload>
-        <createWalletPayload>
-            <password>B3t4D15Trict</password>
-            <second_password>An0th3rPassword</second_password>
-            <api_code>FakeApiCode2</api_code>
-            <email>notExistingMail@gmail.com</email>
-            <label>some_label</label>
-        </createWalletPayload>
-        <createWalletPayload>
-            <password>B3t4D15Trict</password>
-            <second_password>An0th3rPassword</second_password>
-            <api_code>FakeApiCode2</api_code>
-            <email>notExistingMail@gmail.com</email>
-            <label>some_label</label>
-        </createWalletPayload>
-    </createWalletPayloads>
-    <outgoingPaymentPayload>
-        <main_password></main_password>
-        <second_password></second_password>
-        <to></to>
-        <amount>0.1</amount>
-    </outgoingPaymentPayload>
+    <createWalletPayload>
+        <password>B3t4D15Trict</password>
+        <second_password>An0th3rPassword</second_password>
+        <api_code>FakeApiCode</api_code>
+        <email>notExistingMail@gmail.com</email>
+        <label>some_label</label>
+    </createWalletPayload>
 </root>

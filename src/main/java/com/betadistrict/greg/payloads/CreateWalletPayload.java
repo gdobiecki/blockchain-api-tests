@@ -17,12 +17,6 @@ public class CreateWalletPayload {
 
     @XmlElement(required = true)
     private String email;
-//
-//    @XmlElement
-//    private String priv;
-//
-//    @XmlElement
-//    private String label;
 
     public String getPassword() {
         return password;
@@ -55,20 +49,4 @@ public class CreateWalletPayload {
     public void setEmail(String email) {
         this.email = email;
     }
-
-//    public String getPriv() {
-//        return priv;
-//    }
-//
-//    public void setPriv(String priv) {
-//        this.priv = priv;
-//    }
-//
-//    public String getLabel() {
-//        return label;
-//    }
-//
-//    public void setLabel(String label) {
-//        this.label = label;
-//    }
 }
