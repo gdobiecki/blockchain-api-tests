@@ -17,14 +17,13 @@ public class TestBase {
     protected RequestSpecification requestSpecification;
     protected RequestHelper requestHelper;
 
-    @Parameters({"pathToFile", "baseUri", "basePath"})
+    @Parameters({"pathToFile", "baseUri"})
     @BeforeClass(alwaysRun = true)
-    public void setUp(String pathToFile, String baseUri, String basePath) throws JAXBException {
+    public void setUp(String pathToFile, String baseUri) throws JAXBException {
         testDataReader = new TestUtils<>(TestDataReader.class).getTestDataFromFile(pathToFile);
 
         requestSpecification = new RequestSpecBuilder()
                 .setBaseUri(baseUri)
-                .setBasePath(basePath)
                 .setContentType(ContentType.JSON)
                 .log(LogDetail.ALL)
                 .build();

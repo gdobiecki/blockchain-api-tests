@@ -9,17 +9,20 @@ public class CreateWalletPayload {
     @XmlElement(required = true)
     private String password;
 
+    @XmlElement
+    private String second_password;
+
     @XmlElement(required = true)
     private String api_code;
 
     @XmlElement(required = true)
     private String email;
-
-    @XmlElement
-    private String priv;
-
-    @XmlElement
-    private String label;
+//
+//    @XmlElement
+//    private String priv;
+//
+//    @XmlElement
+//    private String label;
 
     public String getPassword() {
         return password;
@@ -27,6 +30,14 @@ public class CreateWalletPayload {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public String getSecond_password() {
+        return second_password;
+    }
+
+    public void setSecond_password(String second_password) {
+        this.second_password = second_password;
     }
 
     public String getApi_code() {
@@ -45,19 +56,19 @@ public class CreateWalletPayload {
         this.email = email;
     }
 
-    public String getPriv() {
-        return priv;
-    }
-
-    public void setPriv(String priv) {
-        this.priv = priv;
-    }
-
-    public String getLabel() {
-        return label;
-    }
-
-    public void setLabel(String label) {
-        this.label = label;
-    }
+//    public String getPriv() {
+//        return priv;
+//    }
+//
+//    public void setPriv(String priv) {
+//        this.priv = priv;
+//    }
+//
+//    public String getLabel() {
+//        return label;
+//    }
+//
+//    public void setLabel(String label) {
+//        this.label = label;
+//    }
 }
