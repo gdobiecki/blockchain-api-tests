@@ -28,3 +28,9 @@ Another way is to run following command in a terminal:
 ```
 mvn clean install
 ```
+
+Test report can be found in:
+
+```
+target/surefire-reports/index.html
+```

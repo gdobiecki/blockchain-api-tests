@@ -39,7 +39,7 @@ public class BlockchainWalletApiTests extends TestBase {
     }
 
     @Test(priority = 4)
-    public void getFirstWalletBalance() {
+    public void getWalletBalance() {
         Response response = requestHelper.getWalletBalance(wallet.getGuid());
         JsonPath jsonPath = response.jsonPath();
         assertEquals(jsonPath.get("balance").toString(), "0");
